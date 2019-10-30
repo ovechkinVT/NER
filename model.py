@@ -1,12 +1,10 @@
 
 import torch
-import torch.autograd as autograd
 import torch.nn as nn
-import torch.optim as optim
 
 torch.manual_seed(1)
 
-from tager.utils import argmax, prepare_sequence, log_sum_exp
+from NER.utils import argmax, prepare_sequence, log_sum_exp
 
 START_TAG = "<START>"
 STOP_TAG = "<STOP>"
